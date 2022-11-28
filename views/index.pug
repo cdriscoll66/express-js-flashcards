@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+        section#content 
+                h2 Hello, #{ name } !
+                form(action="/goodbye" method="post")
+                        input(type="submit" value="Goodbye!")
